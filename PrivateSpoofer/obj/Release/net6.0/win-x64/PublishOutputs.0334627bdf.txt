@@ -1,0 +1,2 @@
+C:\Users\qspy1\source\repos\PrivateSpoofer\PrivateSpoofer\bin\Release\net6.0\publish\win-x64\PrivateSpoofer.pdb
+C:\Users\qspy1\source\repos\PrivateSpoofer\PrivateSpoofer\bin\Release\net6.0\publish\win-x64\PrivateSpoofer.exe
