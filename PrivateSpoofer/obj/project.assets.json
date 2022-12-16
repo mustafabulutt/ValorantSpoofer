@@ -114,11 +114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\qspy1\\source\\repos\\PrivateSpoofer\\PrivateSpoofer\\PrivateSpoofer.csproj",
+      "projectUniqueName": "C:\\Repo\\ValorantSpoofer\\PrivateSpoofer\\PrivateSpoofer.csproj",
       "projectName": "PrivateSpoofer",
-      "projectPath": "C:\\Users\\qspy1\\source\\repos\\PrivateSpoofer\\PrivateSpoofer\\PrivateSpoofer.csproj",
+      "projectPath": "C:\\Repo\\ValorantSpoofer\\PrivateSpoofer\\PrivateSpoofer.csproj",
       "packagesPath": "C:\\Users\\qspy1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\qspy1\\source\\repos\\PrivateSpoofer\\PrivateSpoofer\\obj\\",
+      "outputPath": "C:\\Repo\\ValorantSpoofer\\PrivateSpoofer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

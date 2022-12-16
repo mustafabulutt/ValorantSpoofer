@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fN8SQG2d1rCgA2ZSnXh8bNfHvLVZBD28ef9UHRNBEOElLCLM7ID9o7eIO41R04SfEaSD1WkTJS1sWMMsK62Urg==",
+  "dgSpecHash": "0s/SZ310MIZhJYsMrFgW0qKhf5FYOEn8g0JiFoSMF51mPgjX4o9aYdRIYIxltd8myUDLPEoG/J2cQ/xqCOPU2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\qspy1\\source\\repos\\PrivateSpoofer\\PrivateSpoofer\\PrivateSpoofer.csproj",
+  "projectFilePath": "C:\\Repo\\ValorantSpoofer\\PrivateSpoofer\\PrivateSpoofer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qspy1\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
     "C:\\Users\\qspy1\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
