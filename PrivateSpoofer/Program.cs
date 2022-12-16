@@ -104,7 +104,7 @@ void Init()
 
 
         Console.WriteLine("Bilgisayarı Yeniden Baslat.");
-     
+        Console.WriteLine("Developer By Mustafa Bulut");
 
         Console.ReadLine();
     }
