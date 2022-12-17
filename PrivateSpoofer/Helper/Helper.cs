@@ -21,6 +21,7 @@ namespace PrivateSpoofer.Helper
             process?.Close();
         }
 
+
         private static readonly Random random = new(Environment.TickCount);
         public static string RandomString(int length)
         {

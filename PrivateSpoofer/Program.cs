@@ -18,7 +18,8 @@ Init();
 
 void Init()
 {
-    string warn = "PROGRAMI YONETICI OLARAK CALISTIR";
+    Console.ForegroundColor = ConsoleColor.Green;
+    string warn = "Please , Run as Administrator !";
     Console.Title = "quespy spoofer v1";
     Console.SetCursorPosition((Console.WindowWidth - warn.Length) / 2, Console.CursorTop);
     Console.WriteLine(warn);
@@ -31,6 +32,8 @@ void Init()
     string info = "1 GET SYSTEM INFO";
     string spof = "2 Run Spoofer";
     string secim = "------Choose Number------";
+    string start = "------Process Start , Please Waitinig------";
+
 
     Console.SetCursorPosition((Console.WindowWidth - info.Length) / 2, Console.CursorTop);
     Console.WriteLine(info);
@@ -43,68 +46,66 @@ void Init()
     string cevap = Console.ReadLine();
     if (cevap =="2")
     {
-        Console.BackgroundColor = ConsoleColor.Black;
+
+        Console.SetCursorPosition((Console.WindowWidth - start.Length) / 2, Console.CursorTop);
+        Console.WriteLine(start);
+
         changeVolumeID("C:");
-        Console.WriteLine("Spoof Volume ID C:");
+        Console.WriteLine("1.) Process completed , keep waiting ..."); //Spoof Volume ID C:
         Thread.Sleep(1000); //Wait 1 second
 
-        Console.BackgroundColor = ConsoleColor.Blue;
         changeVolumeID("D:");
-        Console.WriteLine("Spoof Volume ID D:");
+        Console.WriteLine("2.) Process completed , keep waiting ...");//Spoof Volume ID D:
         Thread.Sleep(1000); //Wait 1 second
 
-        Console.BackgroundColor = ConsoleColor.DarkBlue;
         Spoofer.ValorantCleanFull();
-        Console.WriteLine("Clean Valorant Traces");
+        Console.WriteLine("3.) Process completed , keep waiting ...");//Clean Valorant Traces
         Thread.Sleep(1000); //Wait 1 second
 
-        Console.BackgroundColor = ConsoleColor.DarkCyan;
         Spoofer.CleanTraces(); // Log Kayıtları Klasörü Siliniyor
-        Console.WriteLine("Clean Windows Traces");
+        Console.WriteLine("4.) Process completed , keep waiting ..."); //Clean Windows Traces
         Thread.Sleep(1000); //Wait 1 second
 
-        Console.BackgroundColor = ConsoleColor.Cyan;
         Spoofer.SpoofProductID(); //Windows ürün id siliniyor
-        Console.WriteLine("Spoof Product ID");
+        Console.WriteLine("5.) Process completed , keep waiting ...");//Spoof Product ID
         Thread.Sleep(1000); //Wait 1 second
 
-        Console.BackgroundColor = ConsoleColor.DarkGreen;
         Spoofer.SpoofProfileGUID(); //Hardware Profile adresi Değiştiriliyor
-        Console.WriteLine("Spoof ProfileGUID");
+        Console.WriteLine("6.) Process completed , keep waiting ...");//Spoof ProfileGUID
         Thread.Sleep(1000); //Wait 1 second
 
-        Console.BackgroundColor = ConsoleColor.Green;
         Spoofer.SpoofMachineID(); // MachineId Değiştiriliyor
-        Console.WriteLine("Spoof MachineID");
+        Console.WriteLine("7.) Process completed , keep waiting ...");//Spoof MachineID
         Thread.Sleep(1000); //Wait 1 second
 
-        Console.BackgroundColor = ConsoleColor.Yellow;
         Spoofer.SpoofMachineGUID(); // MachineGuid Değiştiriliyor
-        Console.WriteLine("Spoof MachineGUID");
+        Console.WriteLine("8.) Process completed , keep waiting ...");// Spoof MachineGUID
         Thread.Sleep(1000); //Wait 1 second
 
-        Console.BackgroundColor = ConsoleColor.DarkYellow;
         Spoofer.SpoofInstallTime(); // Windows Kurulum Tarihi Değiştiriliyor
-        Console.WriteLine("Spoof WindowsInstallDate");
+        Console.WriteLine("9.) Process completed , keep waiting ...");// Spoof WindowsInstallDate
         Thread.Sleep(1000); //Wait 1 second
 
-        Console.BackgroundColor = ConsoleColor.Gray;
         Spoofer.HideSMBios(); // SMBİOS GİZLENİYOR
-        Console.WriteLine("Spoof SMBİOS");
+        Console.WriteLine("10.) Process completed , keep waiting ...");//  Spoof SMBİOS
         Thread.Sleep(1000); //Wait 1 second
 
-        Console.BackgroundColor = ConsoleColor.DarkGray;
         Spoofer.FlushDNS(); //İP DNS SIFIRLAMASI YAPILIYOR
-        Console.WriteLine("Spoof DNS");
+        Console.WriteLine("11.) Process completed , keep waiting ..."); //Spoof DNS
         Thread.Sleep(1000); //Wait 1 second
 
-        Console.BackgroundColor = ConsoleColor.Blue;
+        Spoofer.SetComputerName(); //Bilgisayar Adı Değiştiriliyor
+        Console.WriteLine("12.) Process completed , keep waiting ..."); //Spoof DNS
+        Thread.Sleep(1000); //Wait 1 second
+
+
+
         GetMacAdress(); //Mac Adresleri Listesi
         SetRegistryMac(); // Mac Adresleri Güncelleniyor
 
 
-        Console.WriteLine("Bilgisayarı Yeniden Baslat.");
-        Console.WriteLine("Developer By Mustafa Bulut");
+        Console.WriteLine("Please restart your computer.Have a fun :)");
+        Console.WriteLine("Developed By Quespy");
 
         Console.ReadLine();
     }
@@ -145,7 +146,7 @@ void SetRegistryMac()
         }
 
     }
-    Console.WriteLine($"Spoof {say} Count MAC");
+    Console.WriteLine($"12.) Process completed , keep waiting ...");
 
 }
 

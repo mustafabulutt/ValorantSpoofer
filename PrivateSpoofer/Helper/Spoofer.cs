@@ -45,6 +45,10 @@ namespace PrivateSpoofer.Helper
 
             CurrentUserReg.Close();
         }
+        public static void SetComputerName() {
+            string computerName = Helper.RandomString(7);
+            Helper.RunAsProcess($"Rename-Computer -NewName {computerName}");
+        }
         public static void ValorantCleanFull()
         {
 
@@ -144,7 +148,7 @@ namespace PrivateSpoofer.Helper
                                     reg delete ""HKEY_LOCAL_MACHINE\SYSTEM\HardwareConfig"" /f
                                     reg delete ""HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control"" /v SystemStartOptions /f
                                     reg delete ""HKEY_USERS\S-1-5-21-2097722829-2509645790-3642206209-1001\Software\Epic Games"" /f");
-            Helper.RunAsProcess(@"reg delete ""HKLM\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\PackageRepository\Packages\Microsoft.XboxGameOverlay_1.41.24001.0_neutral_split.scale-100_8wekyb3d8bbwe"" /f
+                Helper.RunAsProcess(@"reg delete ""HKLM\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\PackageRepository\Packages\Microsoft.XboxGameOverlay_1.41.24001.0_neutral_split.scale-100_8wekyb3d8bbwe"" /f
                                     reg delete ""HKLM\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\PackageRepository\Packages\Microsoft.XboxGameOverlay_1.41.24001.0_neutral_~_8wekyb3d8bbwe"" /f
                                     reg delete ""HKLM\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\PackageRepository\Packages\Microsoft.XboxGameOverlay_1.41.24001.0_x64__8wekyb3d8bbwe"" /f
                                     reg delete ""HKLM\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\PackageRepository\Packages\Microsoft.XboxGameOverlay_1.41.24001.0_x64__8wekyb3d8bbwe\Microsoft.XboxGameOverlay_8wekyb3d8bbwe!App"" /f
