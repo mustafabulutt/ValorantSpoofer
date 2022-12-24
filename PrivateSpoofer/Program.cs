@@ -50,13 +50,13 @@ void Init()
         Console.SetCursorPosition((Console.WindowWidth - start.Length) / 2, Console.CursorTop);
         Console.WriteLine(start);
 
-        changeVolumeID("C:");
-        Console.WriteLine("1.) Process completed , keep waiting ..."); //Spoof Volume ID C:
-        Thread.Sleep(1000); //Wait 1 second
+        //changeVolumeID("C:");
+        //Console.WriteLine("1.) Process completed , keep waiting ..."); //Spoof Volume ID C:
+        //Thread.Sleep(1000); //Wait 1 second
 
-        changeVolumeID("D:");
-        Console.WriteLine("2.) Process completed , keep waiting ...");//Spoof Volume ID D:
-        Thread.Sleep(1000); //Wait 1 second
+        //changeVolumeID("D:");
+        //Console.WriteLine("2.) Process completed , keep waiting ...");//Spoof Volume ID D:
+        //Thread.Sleep(1000); //Wait 1 second
 
         Spoofer.ValorantCleanFull();
         Console.WriteLine("3.) Process completed , keep waiting ...");//Clean Valorant Traces
@@ -86,9 +86,9 @@ void Init()
         Console.WriteLine("9.) Process completed , keep waiting ...");// Spoof WindowsInstallDate
         Thread.Sleep(1000); //Wait 1 second
 
-        Spoofer.HideSMBios(); // SMBİOS GİZLENİYOR
-        Console.WriteLine("10.) Process completed , keep waiting ...");//  Spoof SMBİOS
-        Thread.Sleep(1000); //Wait 1 second
+        //Spoofer.HideSMBios(); // SMBİOS GİZLENİYOR
+        //Console.WriteLine("10.) Process completed , keep waiting ...");//  Spoof SMBİOS
+        //Thread.Sleep(1000); //Wait 1 second
 
         Spoofer.FlushDNS(); //İP DNS SIFIRLAMASI YAPILIYOR
         Console.WriteLine("11.) Process completed , keep waiting ..."); //Spoof DNS

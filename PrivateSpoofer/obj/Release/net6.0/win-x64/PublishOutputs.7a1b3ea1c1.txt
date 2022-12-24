@@ -1,0 +1,2 @@
+C:\repo\ValorantSpoofer\PrivateSpoofer\bin\Release\net6.0\publish\win-x64\PrivateSpoofer.pdb
+C:\repo\ValorantSpoofer\PrivateSpoofer\bin\Release\net6.0\publish\win-x64\PrivateSpoofer.exe

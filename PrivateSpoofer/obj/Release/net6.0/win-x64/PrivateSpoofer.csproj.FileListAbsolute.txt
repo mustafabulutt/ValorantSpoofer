@@ -462,7 +462,6 @@ C:\Repo\ValorantSpoofer\PrivateSpoofer\bin\Release\net6.0\win-x64\dbgshim.dll
 C:\Repo\ValorantSpoofer\PrivateSpoofer\bin\Release\net6.0\win-x64\hostfxr.dll
 C:\Repo\ValorantSpoofer\PrivateSpoofer\bin\Release\net6.0\win-x64\hostpolicy.dll
 C:\Repo\ValorantSpoofer\PrivateSpoofer\bin\Release\net6.0\win-x64\mscordaccore.dll
-C:\Repo\ValorantSpoofer\PrivateSpoofer\bin\Release\net6.0\win-x64\mscordaccore_amd64_amd64_6.0.1122.52304.dll
 C:\Repo\ValorantSpoofer\PrivateSpoofer\bin\Release\net6.0\win-x64\mscordbi.dll
 C:\Repo\ValorantSpoofer\PrivateSpoofer\bin\Release\net6.0\win-x64\mscorrc.dll
 C:\Repo\ValorantSpoofer\PrivateSpoofer\bin\Release\net6.0\win-x64\msquic.dll
@@ -478,3 +477,4 @@ C:\Repo\ValorantSpoofer\PrivateSpoofer\obj\Release\net6.0\win-x64\refint\Private
 C:\Repo\ValorantSpoofer\PrivateSpoofer\obj\Release\net6.0\win-x64\PrivateSpoofer.pdb
 C:\Repo\ValorantSpoofer\PrivateSpoofer\obj\Release\net6.0\win-x64\PrivateSpoofer.genruntimeconfig.cache
 C:\Repo\ValorantSpoofer\PrivateSpoofer\obj\Release\net6.0\win-x64\ref\PrivateSpoofer.dll
+C:\repo\ValorantSpoofer\PrivateSpoofer\bin\Release\net6.0\win-x64\mscordaccore_amd64_amd64_6.0.1222.56807.dll

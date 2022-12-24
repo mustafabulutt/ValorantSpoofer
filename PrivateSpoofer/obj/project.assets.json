@@ -108,23 +108,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\qspy1\\.nuget\\packages\\": {},
+    "C:\\Users\\Mustafa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repo\\ValorantSpoofer\\PrivateSpoofer\\PrivateSpoofer.csproj",
+      "projectUniqueName": "C:\\repo\\ValorantSpoofer\\PrivateSpoofer\\PrivateSpoofer.csproj",
       "projectName": "PrivateSpoofer",
-      "projectPath": "C:\\Repo\\ValorantSpoofer\\PrivateSpoofer\\PrivateSpoofer.csproj",
-      "packagesPath": "C:\\Users\\qspy1\\.nuget\\packages\\",
-      "outputPath": "C:\\Repo\\ValorantSpoofer\\PrivateSpoofer\\obj\\",
+      "projectPath": "C:\\repo\\ValorantSpoofer\\PrivateSpoofer\\PrivateSpoofer.csproj",
+      "packagesPath": "C:\\Users\\Mustafa\\.nuget\\packages\\",
+      "outputPath": "C:\\repo\\ValorantSpoofer\\PrivateSpoofer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\qspy1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -173,7 +173,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

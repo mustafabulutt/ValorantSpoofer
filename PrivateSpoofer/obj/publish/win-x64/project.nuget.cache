@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "BlGMW+k3OhXFzTfYO4psQFqR0SChkgvHrHIR5bWNDjnbebicYnvbIa8wNJ/e+8ULP0o2ejAOb3jdcof4AIT8ig==",
+  "dgSpecHash": "8v98YjX7vBAPJACwTWC0UKKd/yM3JRjEwi8JxKAXXRea0TPJ++6PU3fBlDMKcNzB292A32ymqpcSZmNJ6iCKgg==",
   "success": true,
-  "projectFilePath": "C:\\Repo\\ValorantSpoofer\\PrivateSpoofer\\PrivateSpoofer.csproj",
+  "projectFilePath": "C:\\repo\\ValorantSpoofer\\PrivateSpoofer\\PrivateSpoofer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\qspy1\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
-    "C:\\Users\\qspy1\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512",
-    "C:\\Users\\qspy1\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.11\\microsoft.netcore.app.runtime.win-x64.6.0.11.nupkg.sha512",
-    "C:\\Users\\qspy1\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.11\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.11.nupkg.sha512",
-    "C:\\Users\\qspy1\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.11\\microsoft.aspnetcore.app.runtime.win-x64.6.0.11.nupkg.sha512"
+    "C:\\Users\\Mustafa\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\Mustafa\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512",
+    "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.12\\microsoft.netcore.app.runtime.win-x64.6.0.12.nupkg.sha512",
+    "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.12\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.12.nupkg.sha512",
+    "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.12\\microsoft.aspnetcore.app.runtime.win-x64.6.0.12.nupkg.sha512"
   ],
   "logs": []
 }
